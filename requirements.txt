@@ -1,0 +1,21 @@
+# Crystal2HLT-RFInputs v2 Dependencies
+
+# Core dependencies (pip install)
+biotite>=0.37.0     # PDB/mmCIF parsing and structure manipulation
+biopython>=1.80     # FASTA parsing (v2 feature)
+numpy>=1.20.0       # Numerical operations
+scipy>=1.7.0        # KDTree for spatial calculations
+
+# ANARCI - Antibody numbering (MUST install via conda)
+# anarci>=2021.2.4
+# hmmer>=3.3
+#
+# Install command:
+#   conda install -c bioconda anarci hmmer
+#
+# ANARCI is REQUIRED for accurate CDR identification using Chothia numbering.
+# Without ANARCI, the pipeline will fail-fast with a clear error message.
+
+# Installation:
+#   conda env create -f environment.yml
+#   conda activate crystal2hlt

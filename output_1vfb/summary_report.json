@@ -1,0 +1,20 @@
+{
+  "input_file": "examples/1VFB.cif",
+  "pdbid": "1VFB",
+  "timestamp": "2025-12-25T17:57:40.953777",
+  "total_antibodies": 1,
+  "antibodies": [
+    {
+      "index": 1,
+      "mode": "antibody",
+      "heavy_chain": "B",
+      "light_chain": "A",
+      "epitope_count": 21,
+      "hotspots_count": 8,
+      "is_symmetric_copy": false,
+      "output_dir": "output_1vfb/antibody_1"
+    }
+  ],
+  "symmetric_copies_detected": 0,
+  "symmetric_copy_indices": []
+}

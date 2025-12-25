@@ -1,0 +1,14 @@
+name: crystal2hlt
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - biotite>=0.37.0
+  - biopython>=1.80      # FASTA parsing (v2)
+  - numpy>=1.20.0
+  - scipy>=1.7.0
+  - anarci>=2021.2.4     # Antibody numbering
+  - hmmer>=3.3           # Required by ANARCI for hmmscan
+  - pip

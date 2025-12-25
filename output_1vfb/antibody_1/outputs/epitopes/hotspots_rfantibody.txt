@@ -1,0 +1,1 @@
+ppi.hotspot_res=[T125,T121,T116,T23,T27,T103,T129,T18]

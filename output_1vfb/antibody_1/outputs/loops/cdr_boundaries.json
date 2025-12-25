@@ -1,0 +1,50 @@
+[
+  {
+    "cdr_name": "H1",
+    "chothia_start": 26,
+    "chothia_end": 32,
+    "abs_start": 26,
+    "abs_end": 32,
+    "length": 7
+  },
+  {
+    "cdr_name": "H2",
+    "chothia_start": 52,
+    "chothia_end": 56,
+    "abs_start": 52,
+    "abs_end": 56,
+    "length": 5
+  },
+  {
+    "cdr_name": "H3",
+    "chothia_start": 95,
+    "chothia_end": 102,
+    "abs_start": 98,
+    "abs_end": 105,
+    "length": 8
+  },
+  {
+    "cdr_name": "L1",
+    "chothia_start": 24,
+    "chothia_end": 34,
+    "abs_start": 140,
+    "abs_end": 150,
+    "length": 11
+  },
+  {
+    "cdr_name": "L2",
+    "chothia_start": 50,
+    "chothia_end": 56,
+    "abs_start": 166,
+    "abs_end": 172,
+    "length": 7
+  },
+  {
+    "cdr_name": "L3",
+    "chothia_start": 89,
+    "chothia_end": 97,
+    "abs_start": 205,
+    "abs_end": 213,
+    "length": 9
+  }
+]

@@ -1,0 +1,9 @@
+residue	res_name	score	contact_count	min_distance	avg_cb_dist_to_cdr5
+T:125	ARG	13.3169	13	3.1559	N/A
+T:121	GLN	10.5319	10	1.8800	N/A
+T:116	LYS	9.4725	9	2.1164	N/A
+T:23	TYR	7.2857	7	3.4997	N/A
+T:27	ASN	5.4530	5	2.2076	N/A
+T:103	ASN	5.2531	5	3.9516	N/A
+T:129	LEU	3.3910	3	2.5578	N/A
+T:18	ASP	3.3649	3	2.7403	N/A

@@ -1,0 +1,1 @@
+antibody.design_loops=[H1:7,H2:5,H3:8,L1:11,L2:7,L3:9]

@@ -1,0 +1,21 @@
+1JRH：测 标准 Fab(H+L) + 单链蛋白抗原 的基础拆分与界面判定；特点是抗原是 IFN-γ 受体α链片段，复合物里链组成很清晰（抗体两条链 + 抗原链）。 ￼
+1IND：测 “非蛋白抗原”处理/报错策略；特点是 Fab 结合的是 金属螯合半抗原（indium chelate hapten），抗原不是多肽链而是配体/化学组分。 ￼
+2IGF：测 短肽抗原（链很短，容易被误当成 tag/linker）时的 target 识别与界面残基提取；特点是 Fab–19aa 合成肽 复合物。 ￼
+9O2R：测 多价/多拷贝装配 + 多抗体交联 场景下的拆分鲁棒性；特点是 HIV Env trimer 相关复合物，文献描述出现 IgG 介导的跨三聚体交联，很适合压测“到底哪些链算 target/哪些算抗体”。 ￼
+3HFM：测 Fab 裁剪/只取 Fv（或保持 Fab）以及经典蛋白-蛋白界面；特点是 HyHEL-10 Fab–溶菌酶，非常“教科书式”。 ￼
+7V2A：测 多链抗原（三聚体）→ 统一改名为 T 且重编号不冲突；特点是 SARS-CoV-2 Spike trimer + Fab（cryo-EM）。 ￼
+6J15：测 Fab + 单链受体类抗原 的一般情况；特点是 PD-1 与 Fab 复合物，并提到可观察到 糖基化（对“把糖/异物当成抗原链”的错误很敏感）。 ￼
+6DO1：测 膜蛋白体系 + 稳定化 nanobody/伴侣混入 时的 target 拆分；特点是 AT1R（GPCR）被 nanobody 稳定，典型“膜蛋白复杂体系”。 ￼
+2ZNW：测 scFv（单链 VH–linker–VL 或 VL–linker–VH）识别与拆分；特点是 scFv–溶菌酶 复合物。 ￼
+3J8V：测 ASU vs biological assembly / 对称相关单元参与表位 的情况；特点是 HPV16 衣壳与 Fab 结合，界面可能涉及 symmetry-related copies，很适合压测你“装配切换/对称处理”的逻辑。 ￼
+7WEA：测 同一抗原上同时出现两个 Fab（多抗体）；特点是 Omicron Spike 与两个 Fab 同时结合（一个 close RBD、一个 open RBD 的描述很直观）。 ￼
+8ZHH：测 三聚体抗原 + 两个 Fab 的多抗体场景；特点是 Spike trimer(6P) + 两个 H18 Fabs，而且条目里也能看到含 表达标签/工程片段 的链信息（对“杂链过滤”有价值）。 ￼
+1VFB：测 最干净的基线（Fv + 蛋白抗原）；特点是 D1.3 Fv–溶菌酶，链短、结构规整，适合当回归测试基准。 ￼
+3P0G：测 伴侣蛋白混入（T4 lysozyme fusion）+ nanobody 稳定；特点是 β2AR 条目里明确写到 “Beta-2 adrenergic receptor, Lysozyme”（融合伴侣会作为同一条链的一部分出现）。 ￼
+8TH4：测 GPCR + nanobody + 小分子拮抗剂 这种“体系里同时有蛋白与配体”的拆分；特点是 AT1R + nanobody + Losartan（容易误把小分子当 target）。 ￼
+8A1E：测 三聚体抗原 + 两个不同 Fab（多抗体、不同表位）；特点是 狂犬病毒糖蛋白三聚体 与 两种中和抗体 Fab 同时结合。 ￼
+7R74：测 VHH（单域抗体）+ 蛋白抗原 的识别（避免把 VHH 当成普通受体链）；特点是 llama nanobody 与 HIV-1 gp120 core 复合物（晶体结构）。 ￼
+5M13：测 VHH/“合成纳米抗体” 的链识别；特点是 synthetic nanobody 与 MBP 复合物，链注释非常明确。 ￼
+9JT1：测 多链抗原（二聚体）+ 两个 Fab 同时存在，以及 target 统一命名时的编号不冲突；特点是 HBsAg 以二聚体形式出现（抗原链 A、B）并与两个 Fab 复合。 ￼
+1S3K：测 糖类表位（非蛋白界面） 的处理；特点是 Fab 与 Lewis Y 四糖 复合，抗原完全不是多肽链。 ￼
+5E08：测 核酸抗原（RNA） 的处理/报错策略；特点是 合成 Fab 与单链 RNA 序列 形成复合物（RNA 会以核酸链/配体形式出现）。 ￼
